@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvFromClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnIntentService"
+            style="@style/ButtonService"
+            android:text="@string/intent_service" />
+
+        <Button
+            android:id="@+id/btnSystemService"
+            style="@style/ButtonService"
+            android:text="@string/system_service" />
+
+        <Button
+            android:id="@+id/btnUnBoundService"
+            style="@style/ButtonService"
+            android:text="@string/unbound_service" />
+
+        <Button
+            android:id="@+id/btnBoundService"
+            style="@style/ButtonService"
+            android:text="@string/bound_service" />
+    </LinearLayout>
+</layout>

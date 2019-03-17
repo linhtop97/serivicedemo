@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MISA.SERVICEDEMO</string>
+    <string name="intent_service">Intent Service</string>
+    <string name="unbound_service">Unbound Service</string>
+    <string name="bound_service">Bound Service</string>
+    <string name="something_went_wrong">Đã có lỗi xảy ra!</string>
+    <string name="service_normal">Service Normal</string>
+    <string name="clear">Clear</string>
+    <string name="empty" />
+    <string name="system_service">System Service</string>
+    <string name="call">Call</string>
+    <string name="phone">phone</string>
+    <string name="check_net_work_available">Check network available</string>
+    <string name="network_available">Network available</string>
+    <string name="network_not_available">Network_not_available</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+</resources>

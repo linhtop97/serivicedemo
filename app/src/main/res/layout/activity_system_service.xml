@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="@dimen/width_edt_number"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone"
+            android:inputType="phone"
+            android:padding="@dimen/padding_small" />
+
+        <Button
+            android:id="@+id/btnCall"
+            style="@style/ButtonService"
+            android:text="@string/call" />
+
+        <Button
+            android:id="@+id/btnCheckNetwork"
+            style="@style/ButtonService"
+            android:text="@string/check_net_work_available" />
+
+        <TextView
+            android:id="@+id/tvNetWorkIsAvailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</layout>
